@@ -1,10 +1,10 @@
-// import { CardWithForm } from "@repo/ui/use-components/Card";
 import { Button } from "@repo/ui/components/ui/button";
+import { CardWithForm } from "@repo/ui/components/Card";
 
 export default function Home() {
   return (
     <div>
-      <Button> new </Button>
+      <CardWithForm />{" "}
     </div>
   );
 }
